@@ -464,6 +464,7 @@ footer{
 nav .navlist{
   height: 100vh;
   margin-top:0px;
+  margin: 0px;
 
   position: fixed;
   top: 0;
