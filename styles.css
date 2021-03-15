@@ -1,0 +1,501 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 50px;
+}
+
+
+#body footer, #about-body footer{
+  position: relative;
+  bottom: 0;
+  margin: 0;
+}
+
+/*******NAVIGATION*******/
+nav .open {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+nav ul .close{
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+
+
+
+/*#body{
+  background: url(1979165_708383489221850_3597114501069810309_o.jpg) no-repeat fixed center/cover;
+}*/
+
+.photograph{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  margin: 0;
+  background: url(1979165_708383489221850_3597114501069810309_o.jpg) center center no-repeat;
+  -webkit-background-size: cover ;
+  -moz-background-size:cover ;
+  -o-background-size:cover;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+body{
+  background: rgb(170, 152, 138);
+  margin: 0;
+  padding: 0;
+  height:100vh;
+}
+
+nav .navlist{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  list-style: none;
+  padding: 0px 0px 0px 0px;
+}
+
+li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: gold;
+  font-size: larger;
+  padding: 10px 20px;
+}
+
+a:hover{
+  background: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+h1{
+  color: blueviolet;
+}
+
+.index-body {
+  height: 100vh;
+}
+
+
+.asa{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.paragraph{
+  color:rgba(214, 157, 2, 0.938);
+  border-radius: 5px;
+  font-size: 25px;
+  padding:10px;
+  font-weight: bolder;
+  position: relative;
+  top: -50%;
+}
+
+
+/*******ABOUT*******/
+#about{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 10px;
+ padding:0px 20px;
+ align-items: center;
+ height: 100vh;
+}
+
+.about{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.about-img img{
+  max-width: 100%;
+}
+
+/*******CAREER*******/
+.career{
+  padding: 10px;
+}
+
+.img{
+  width: 250px;
+  height: 150px;
+}
+
+.career div{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
+.career-div{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+li > div{
+  flex-grow: 0;
+}
+
+/*******ALBUMS*******/
+.album-h1{
+  text-align: center;
+  color: black;
+  text-shadow: 4px 4px 5px white;
+  text-decoration: underline;
+}
+
+.album-list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+  list-style: none;
+  padding: 20px;
+}
+
+.album-list li{
+  max-width: 100%;
+}
+
+.each-album{
+  padding-bottom: 20px;
+}
+
+.album-img, .live-img{
+  max-width: 100%;
+}
+
+.about-album h1{
+  max-width: 250px;
+}
+
+.about-album p{
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.section2{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: auto;
+}
+
+.section2 h1{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.singles-grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singles-grid ul{
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.singles-grid li{
+  padding: 5px;
+  border: solid rgba(102, 69, 42, 0.884) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+.live-img-words{
+  text-align: center;
+  padding: 20px;
+}
+
+/*******CONTACT*******/
+.contact-page{
+  /*background: url(ASA-_Photo-Glamsquad-magazine-e1567004518401.png) no-repeat fixed center/cover;*/
+  height: 100vh;
+}
+
+.contact{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  margin: 0;
+  background: url(ASA-_Photo-Glamsquad-magazine-e1567004518401.png) center center no-repeat;
+  -webkit-background-size: cover ;
+  -moz-background-size:cover ;
+  -o-background-size:cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(245, 244, 244);
+  margin-bottom: 50px;
+  padding: 25px;
+  height: 100vh;
+}
+
+label{
+  text-shadow: -4px -4px 10px rgb(117, 9, 9);
+  font-size: larger;
+}
+
+input{
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+textarea{
+  width: 400px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  max-width: 100%;
+}
+
+
+
+/*
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+  background: black;
+}*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  align-items: center;
+}
+
+.fa{
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.fa:hover{
+  color:gold ;
+}
+
+.button{
+  width: 400px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background: black;
+  padding: 20px;
+}
+
+.button:hover{
+  background: rgb(180, 127, 46);
+}
+
+footer p:hover{
+  color: gold;
+}
+
+footer{
+  width: 100%;
+}
+
+/*/*******MEDIA QUERY*******/
+@media (max-width:768px){
+
+  *{
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .section{
+    display: block;
+  }
+
+  .home{
+    display: block;
+    text-align: center;
+  }
+
+  .paragraph{
+    font-size: 25px;
+    text-align: center;
+    color:rgba(214, 157, 2, 0.938);
+  }
+
+  .asa{
+    font-size: 30px;
+  }
+
+  /*******ABOUT*******/
+  #about{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+  .about-img img{
+    max-width: 100%;
+    padding-top: 0px;
+  }
+
+  /*******CAREER*******/
+
+  .career-div{
+    display: flex;
+   
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .career img{
+    max-width: 100%;
+  }
+
+  /*******ALBUMS*******/
+  .album-list{
+    display: block;
+  }
+
+  .section2{
+    display: block;
+  }
+
+.each-album{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .about-album p{
+    font-size: 18px;
+    max-width: 100%;
+  }
+  /*******CONTACT*******/
+
+  input{
+    max-width: 100%;
+    display: flex;
+  }
+
+    textarea{
+    max-width: 100%;
+    display: flex;
+    }
+    
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button{
+    max-width: 100%;
+  }
+
+ 
+
+
+/*******NAVIGATION*******/
+
+nav .navlist{
+  height: 100vh;
+  margin-top:0px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: black;
+  transition: top 1s ease-in-out;
+  display: none;
+}
+
+li {
+  padding: 30px;
+}
+
+nav .navlist .close{
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav .open{
+  display: block;
+}
+
+.fas{
+  color: gold;
+  outline: none;
+}
+}
