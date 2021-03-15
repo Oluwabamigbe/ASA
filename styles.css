@@ -25,7 +25,6 @@ nav ul .close{
   font-size: 2rem;
   display: none;
   cursor: pointer;
-  margin: 20px;
 }
 
 
@@ -490,6 +489,7 @@ nav .navlist .close{
   position: absolute;
   top: 20px;
   right: 20px;
+  margin: 20px;
 }
 
 nav .open{
